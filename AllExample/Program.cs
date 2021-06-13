@@ -57,14 +57,35 @@ namespace AllExample
              Console.WriteLine(myNumLong);*/
 
             //######### TYPE CASTING #########
-           /* int myInt = 10;
-            double myDouble = 5.25;
-            bool myBool = true;
-            Console.WriteLine(Convert.ToString(myInt));    // Convert int to string
-            Console.WriteLine(Convert.ToDouble(myInt));    // Convert int to double
-            Console.WriteLine(Convert.ToInt32(myDouble));  // Convert double to int
-            Console.WriteLine(Convert.ToString(myBool));   // Convert bool to string
-           */
+            /* int myInt = 10;
+             double myDouble = 5.25;
+             bool myBool = true;
+             Console.WriteLine(Convert.ToString(myInt));    // Convert int to string
+             Console.WriteLine(Convert.ToDouble(myInt));    // Convert int to double
+             Console.WriteLine(Convert.ToInt32(myDouble));  // Convert double to int
+             Console.WriteLine(Convert.ToString(myBool));   // Convert bool to string
+            */
+
+            //######### USER INPUT #########
+            // Type your username and press enter
+            /*Console.WriteLine("Enter username:");*/
+            // Create a string variable and get user input from the keyboard and store it in the variable
+            /*string userName = Console.ReadLine();*/
+            // Print the value of the variable (userName), which will display the input value
+            /*Console.WriteLine("Username is: " + userName);*/
+
+            //user input number
+            /*Console.WriteLine("Enter your age:");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your age is: " + age);*/
+
+
+            //######### TYPE CASTING #########
+            //######### TYPE CASTING #########
+            //######### TYPE CASTING #########
+            //######### TYPE CASTING #########
+
+
         }
     }
 }
