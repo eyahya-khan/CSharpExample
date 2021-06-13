@@ -43,19 +43,28 @@ namespace AllExample
             Console.WriteLine(x + y + z);*/
 
             //######### DATA TYPE #########
-           /* int myNum = 5;               // integer (whole number)
-            double myDoubleNum = 5.99D;  // floating point number
-            char myLetter = 'D';         // character
-            bool myBool = true;          // boolean
-            string myText = "Hello";
-            long myNumLong = 15000000000L;  //long type
-            Console.WriteLine(myNum);// string
-            Console.WriteLine(myDoubleNum);
-            Console.WriteLine(myLetter);
-            Console.WriteLine(myBool);
-            Console.WriteLine(myText);
-            Console.WriteLine(myNumLong);*/
+            /* int myNum = 5;               // integer (whole number)
+             double myDoubleNum = 5.99D;  // floating point number
+             char myLetter = 'D';         // character
+             bool myBool = true;          // boolean
+             string myText = "Hello";
+             long myNumLong = 15000000000L;  //long type
+             Console.WriteLine(myNum);// string
+             Console.WriteLine(myDoubleNum);
+             Console.WriteLine(myLetter);
+             Console.WriteLine(myBool);
+             Console.WriteLine(myText);
+             Console.WriteLine(myNumLong);*/
 
+            //######### TYPE CASTING #########
+           /* int myInt = 10;
+            double myDouble = 5.25;
+            bool myBool = true;
+            Console.WriteLine(Convert.ToString(myInt));    // Convert int to string
+            Console.WriteLine(Convert.ToDouble(myInt));    // Convert int to double
+            Console.WriteLine(Convert.ToInt32(myDouble));  // Convert double to int
+            Console.WriteLine(Convert.ToString(myBool));   // Convert bool to string
+           */
         }
     }
 }
