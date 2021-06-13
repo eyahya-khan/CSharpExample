@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace AllExample
 {
@@ -232,6 +233,58 @@ namespace AllExample
                 Console.WriteLine(i);
             }*/
 
+            //######### ARRAYS #########
+            //create array
+            /*string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            Console.WriteLine(cars[0]);*/
+
+            //change array element
+            /*string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            cars[0] = "Opel";
+            Console.WriteLine(cars[0]);*/
+
+            //array length
+            /*string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            Console.WriteLine(cars.Length);*/
+
+            //for loop in array
+            /*string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            for (int i = 0; i < cars.Length; i++)
+            {
+                Console.WriteLine(cars[i]);
+            }*/
+
+            //foreach loop in array
+            /*string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            foreach (string i in cars)
+            {
+                Console.WriteLine(i);
+            }*/
+
+            //sorting array
+            // Sort a string
+            /*string[] cars = { "Volvo", "BMW", "Ford", "Mazda" };
+            Array.Sort(cars);
+            foreach (string i in cars)
+            {
+                Console.WriteLine(i);
+            }
+
+            // Sort an int
+            int[] myNumbers = { 5, 1, 8, 9 };
+            Array.Sort(myNumbers);
+            foreach (int i in myNumbers)
+            {
+                Console.WriteLine(i);
+            }
+            */
+
+            //System.Linq
+            /*int[] myNumbers = { 5, 1, 8, 9 };
+            Console.WriteLine(myNumbers.Max());  // largest value
+            Console.WriteLine(myNumbers.Min());  // smallest value
+            Console.WriteLine(myNumbers.Sum());  // sum of myNumbers
+            */
         }
     }
 }
