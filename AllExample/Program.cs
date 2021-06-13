@@ -42,6 +42,19 @@ namespace AllExample
             /*int x = 5, y = 6, z = 50;
             Console.WriteLine(x + y + z);*/
 
+            //######### DATA TYPE #########
+           /* int myNum = 5;               // integer (whole number)
+            double myDoubleNum = 5.99D;  // floating point number
+            char myLetter = 'D';         // character
+            bool myBool = true;          // boolean
+            string myText = "Hello";
+            long myNumLong = 15000000000L;  //long type
+            Console.WriteLine(myNum);// string
+            Console.WriteLine(myDoubleNum);
+            Console.WriteLine(myLetter);
+            Console.WriteLine(myBool);
+            Console.WriteLine(myText);
+            Console.WriteLine(myNumLong);*/
 
         }
     }
