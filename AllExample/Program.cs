@@ -86,9 +86,57 @@ namespace AllExample
             Console.WriteLine(Math.Abs(-4.7));
             Console.WriteLine(Math.Round(9.99));*/
 
-            //######### TYPE CASTING #########
+            //######### STRING #########
+            //string length
+            /*string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            Console.WriteLine("The length of the txt string is: " + txt.Length);*/
+            //convert UPPERCASE and lowercase
+            /*string txt = "Hello World";
+            Console.WriteLine(txt.ToUpper());   // Outputs "HELLO WORLD"
+            Console.WriteLine(txt.ToLower());   // Outputs "hello world"
+            */
+            //normal concatenation
+            /*string firstName = "John ";
+            string lastName = "Doe";
+            string name = firstName + lastName;
+            Console.WriteLine(name);*/
 
-            //######### TYPE CASTING #########
+            //using Concat() method
+            /*string firstName = "John ";
+            string lastName = "Doe";
+            string name = string.Concat(firstName, lastName);
+            Console.WriteLine(name);*/
+
+            //interpolation
+            /*string firstName = "John";
+            string lastName = "Doe";
+            string name = $"My full name is: {firstName} {lastName}";
+            Console.WriteLine(name);*/
+
+            //access character in a string by index number
+            /*string myString = "Hello";
+            Console.WriteLine(myString[0]);*/
+
+            //access character position in a string by indexof() method
+            /*string myString = "Hello";
+            Console.WriteLine(myString.IndexOf("e"));*/
+
+            //substring and indexof() display specific part of string
+            // Full name
+            /*string name = "John Doe";*/
+            // Location of the letter D
+            /*int charPos = name.IndexOf("h");*/
+            // Get last name
+            /*string lastName = name.Substring(charPos);*/
+            // Print the result
+            /*Console.WriteLine(lastName);*/
+
+            //quote of string
+            /*string txt = "We are the so-called \"Vikings\" from the north.";
+            Console.WriteLine(txt);*/
+
+            //######### if ... else if ... else #########
+
             //######### TYPE CASTING #########
 
 
